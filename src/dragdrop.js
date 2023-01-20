@@ -30,6 +30,7 @@ const generateListFromDOM = () => {
 
 const refreshStore = () => {
   const resultList = generateListFromDOM();
+  console.log(resultList);
   const sortedList = sortIndex(resultList);
 
   toStorage(sortedList);
