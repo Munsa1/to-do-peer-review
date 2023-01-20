@@ -35,7 +35,7 @@ const refreshStore = () => {
 
   toStorage(sortedList);
 };
-
+//console.log(resultList);
 const dragStart = (e) => {
   e.target.style.opacity = '0.4';
   dragElemStart = e.currentTarget;
